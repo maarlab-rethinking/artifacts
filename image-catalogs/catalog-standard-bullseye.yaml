@@ -11,14 +11,14 @@ metadata:
 spec:
   images:
   - major: 13
-    image: ghcr.io/cloudnative-pg/postgresql:13.22-202511100817-standard-bullseye@sha256:bdf11cbefce25a4cdad91dbd30caf00d7efc2fd54319e7ab6195814b41ba8f66
+    image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-standard-bullseye@sha256:5df72739a0e6a8298e6a4ac9b8ba5c6fd460564d96cc6d1a1f3ee066b8cca003
   - major: 14
-    image: ghcr.io/cloudnative-pg/postgresql:14.19-202511100807-standard-bullseye@sha256:4cb8bb765611e7cb9e671964313807e8145baf043a27f9d7aff0981904ee8a29
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202511162042-standard-bullseye@sha256:e9a3d94ee591afe581f331b9cd5be67dc8559708cad509e4692e37b71bd8bedb
   - major: 15
-    image: ghcr.io/cloudnative-pg/postgresql:15.14-202511100817-standard-bullseye@sha256:4e6b583aa50b1eea1c45150121d5ce20afdf28f9266cd2b415e0a4e8e6ed77ee
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202511162042-standard-bullseye@sha256:f845a8f0647183227485fc5e22642ce8ff1b3c85638f2868cb89e72de167076c
   - major: 16
-    image: ghcr.io/cloudnative-pg/postgresql:16.10-202511100807-standard-bullseye@sha256:f5e9d0cb5a6aaa306054582582a929a3e298c97cbc4f13f4e2bf5445192871c2
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202511162042-standard-bullseye@sha256:ff4f1e9acf30034d1a57e40ad56c14857ae04b5491b2ffcb1c4a28cf18256dc7
   - major: 17
-    image: ghcr.io/cloudnative-pg/postgresql:17.6-202511100807-standard-bullseye@sha256:0f60437e5d9452ce83050a70b9e7c30fbf7ffa6ffdfd02914b9f455934531a38
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202511162042-standard-bullseye@sha256:960b7d0dd0425c702789fc257bccc74a8b255d5f9ed45ee3e9a5d1b59f1a6f46
   - major: 18
-    image: ghcr.io/cloudnative-pg/postgresql:18.0-202511100807-standard-bullseye@sha256:89b7a95339bb30c142e9f3b7ed7c20c5a754f20d7382fd2092459a04073372f0
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202511162042-standard-bullseye@sha256:8bbb225c1b36d733b7abbf044e9be16173a01f31aea2b20eb333f129e3fc9cae
