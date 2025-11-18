@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20251117'
+    images.cnpg.io/date: '20251118'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bullseye@sha256:3b91a3a311e10bf5873ba73296208e2741442eb5f0e2a30663ecf88e02472a5e
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202511170827-minimal-bullseye@sha256:1815814e9924fbb8380bd281beb773b5a4c7cb94bfc9babacb25470a8c2b75ea
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202511181128-minimal-bullseye@sha256:31fd270d36a48d176c764716a32bd63eb94a8afb59903625254364988d673444
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202511170827-minimal-bullseye@sha256:b34ce6f7513aaaf71bd9beb29a2de7293393f952be7e48ca2db9c3d81063452e
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202511181129-minimal-bullseye@sha256:fbfe58047c312409223b126e316986f3091c61c838c65b090f8bed155b1ad672
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202511170827-minimal-bullseye@sha256:3c839653140ddbe9f075c6db1155e2c292085eb19ebca8cd9bd3a6e594dbd947
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202511181128-minimal-bullseye@sha256:3dceece3f168b57ab9c159acfbc69e634a3889b1188f2927efa3bd57ca19c5d1
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202511170826-minimal-bullseye@sha256:f4a5ad358657444ff891869cc1f72f3b1e88905e1c5c8d3a114800ccb249d4a7
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202511181128-minimal-bullseye@sha256:16e42828922d55395603a36ab17618fa6986ed60b99ad58b9d7f7f80cd5993ad
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202511170827-minimal-bullseye@sha256:2eacdce02bac17db0b2a0fd01a810b7428d3434e807f20b860dbce84caaf3836
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202511181128-minimal-bullseye@sha256:7c61d5f935f9b6419839763dd145c35f46585848120466f4755bbf44652541d1
