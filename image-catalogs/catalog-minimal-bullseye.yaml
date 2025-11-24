@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20251118'
+    images.cnpg.io/date: '20251124'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bullseye@sha256:3b91a3a311e10bf5873ba73296208e2741442eb5f0e2a30663ecf88e02472a5e
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202511181128-minimal-bullseye@sha256:31fd270d36a48d176c764716a32bd63eb94a8afb59903625254364988d673444
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202511240826-minimal-bullseye@sha256:00cd4e62315b430edb7d93ed5a44959c4298119ecde42bd084841a31957eadf2
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202511181129-minimal-bullseye@sha256:fbfe58047c312409223b126e316986f3091c61c838c65b090f8bed155b1ad672
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202511240826-minimal-bullseye@sha256:f570c349e5a10a302bab0af3a624c4e81e398bf789f8e0a52eda73247f5de9db
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202511181128-minimal-bullseye@sha256:3dceece3f168b57ab9c159acfbc69e634a3889b1188f2927efa3bd57ca19c5d1
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202511240826-minimal-bullseye@sha256:49ee73eabb2a236d5ae1f2c94d9f1efc7d805b3f1268af2c112ad9ba9c6486bb
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202511181128-minimal-bullseye@sha256:16e42828922d55395603a36ab17618fa6986ed60b99ad58b9d7f7f80cd5993ad
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202511240826-minimal-bullseye@sha256:4ae478d7b92f7b3e9aa4bec861cb94e001a9b599960276f74c1d70342caeb2cd
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202511181128-minimal-bullseye@sha256:7c61d5f935f9b6419839763dd145c35f46585848120466f4755bbf44652541d1
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202511240826-minimal-bullseye@sha256:2e96a860ea2330e1617ae3dc944af3740f301d60f4685b7fc894a50638ff7399
