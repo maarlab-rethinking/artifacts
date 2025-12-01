@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251124'
+    images.cnpg.io/date: '20251201'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202511240826-minimal-bookworm@sha256:e8786836c63cf072a9b8c64526c35b1280e74eac33c804ed6d4cf5e4cf6e164c
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202512010829-minimal-bookworm@sha256:f6695a84b6bf8b761ac792ab24cd2fba077d756c52b554c4db8e861a7e150ed7
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202511240826-minimal-bookworm@sha256:2239a5d228e8bfc96b530b846f132a52a0c90a9a0fefb8b218c8a961b1cf750f
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202512010829-minimal-bookworm@sha256:5082ff92e6c6b63cf531c0e65791dfdbe01ab4ebcd117921fad845a5bbaacb96
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202511240826-minimal-bookworm@sha256:7850009fbd8c0294fc47cf8988218fa9d5a149d9565be4cba497149053df7f3c
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202512010829-minimal-bookworm@sha256:b67c2cec9ae69098c902a6d3978b98c313ed6ddd4179da9ebf70ed9bda34c60c
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202511240826-minimal-bookworm@sha256:fce9012eeb92770d3b53b6b17ade741f00e6bbef963cdadacc2948e5b03c6f4e
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202512010829-minimal-bookworm@sha256:104957230c527d3ad773feed1b5b03777b918558ee7faac9935886a89781f76f
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202511240826-minimal-bookworm@sha256:7acbc5d3f33a12a5cda0baf492928430ee62e0e6b7d0341d7b96d5f0d13bdaf4
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202512010829-minimal-bookworm@sha256:c6a9791431cedd15d4c19a7ef806ad1a2072bc47a927678c6595ffc1e6a4f65e
