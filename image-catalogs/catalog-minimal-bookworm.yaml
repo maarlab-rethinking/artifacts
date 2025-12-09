@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251201'
+    images.cnpg.io/date: '20251209'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202512010829-minimal-bookworm@sha256:f6695a84b6bf8b761ac792ab24cd2fba077d756c52b554c4db8e861a7e150ed7
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202512091053-minimal-bookworm@sha256:ce628aca0ee39ccad5a1bd1b49af106e1f84ff07cd0f4b228786d5e0f0e2265d
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202512010829-minimal-bookworm@sha256:5082ff92e6c6b63cf531c0e65791dfdbe01ab4ebcd117921fad845a5bbaacb96
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202512091054-minimal-bookworm@sha256:095b3bcfa52f73d63bb5cc08f79abb76cc1ebaa0693dcfab561d696efc88617a
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202512010829-minimal-bookworm@sha256:b67c2cec9ae69098c902a6d3978b98c313ed6ddd4179da9ebf70ed9bda34c60c
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202512080828-minimal-bookworm@sha256:6aa44327343c0d8c906c0d9f656a6a4e85f03f737606fbeebbb0ed5d4801009e
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202512010829-minimal-bookworm@sha256:104957230c527d3ad773feed1b5b03777b918558ee7faac9935886a89781f76f
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202512091054-minimal-bookworm@sha256:76abdab358eaff5ee48f1b7eda78b16d2ea76b7f3890d7ad1e73948156268b54
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202512010829-minimal-bookworm@sha256:c6a9791431cedd15d4c19a7ef806ad1a2072bc47a927678c6595ffc1e6a4f65e
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202512080828-minimal-bookworm@sha256:0e10feea01ee0db796183d46d4d84a78aea4d7f18c62d4277800c61770101021
