@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251215'
+    images.cnpg.io/date: '20251222'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-standard-bookworm@sha256:a381f2cde7cef50295de34721bf8568b835fca0963d03a164e3c249f237ea1c6
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202512150830-standard-bookworm@sha256:766eed96a4efce6400fdcd8e5db80f836edc0174f96a10f0ff36ab03e7e10930
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202512220828-standard-bookworm@sha256:40b6be890186437b971df2aee1776918c616e02fca9879a557f6bbdbb3ebc022
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202512150830-standard-bookworm@sha256:8c0c842fb3055e15ec62f88a0a4e582bb8e442b538453cf6d420100ac36ac7ae
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202512220828-standard-bookworm@sha256:37d5366fd447d95c88115383b2f20fc2ac3dab481df06c8f8073252a49fb6f4a
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202512150830-standard-bookworm@sha256:6db7c10a8e0e7ecab4e86060af4cdaa1acc3c934de446d6b3ca31b64ed8031cf
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202512220828-standard-bookworm@sha256:71e58857ed5afbfdb895404ac26609f18d50d1cb2c75ed65e54b9f4b361e0e6e
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202512150830-standard-bookworm@sha256:c1c3c9489f7ab6fcf6a3c95b15bca8f5f4e0afde5febe6c978c7001acb98cd30
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202512220828-standard-bookworm@sha256:6712605d766cc8430d367b3e24650e4b77c0a74f3f02e008246531d272c3d1cb
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202512150830-standard-bookworm@sha256:7d805fb0397f642dd9d555ee7858bac5a624bd73c0eef44e0852f1b2b9fceab1
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202512220828-standard-bookworm@sha256:e15faedcbe2520b7a7686f8bc2c3f18ab835649314e2be488fa96de9edd03a1a

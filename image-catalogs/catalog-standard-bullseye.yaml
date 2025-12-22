@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: standard
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20251215'
+    images.cnpg.io/date: '20251222'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-standard-bullseye@sha256:5df72739a0e6a8298e6a4ac9b8ba5c6fd460564d96cc6d1a1f3ee066b8cca003
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202512150830-standard-bullseye@sha256:bf286db677b495c42f082806f5c16725cb0d72d7d8765445a32d066c1e9296ba
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202512220828-standard-bullseye@sha256:89db69613ccfb0ef9d3e9eaecfa0789d5500e619d798eea8adb3eaa44f7a8a3f
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202512150830-standard-bullseye@sha256:7ab59120869ecce952ba3705fbc3b0ad0d34d56007b3a06b01e0ef37b9dbd2f3
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202512220828-standard-bullseye@sha256:898a2266d72395a2f746d6493e54821b3fff5d9d18803d2e6febb0961d4cce80
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202512150830-standard-bullseye@sha256:fc92341187b9c045b234b6d2952e2e318df08c8ca21f9e4d7f5699fd8eb3394b
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202512220828-standard-bullseye@sha256:8feb74d87b28d6333d7e3c767e2008880695ffcece708043ea83993dda4f5bdd
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202512150830-standard-bullseye@sha256:d412fdd75081c00b8b80b556cc1f758a8710fd96da2cc570abe003fbe061a61f
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202512220828-standard-bullseye@sha256:beac6ac78047cf11529bbead95d671c3b5bbe86cb89a55c9919ce721b51d65ce
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202512150830-standard-bullseye@sha256:19edd3f3f68b2ecf1b6ad4994c88a9bb57ea2451b4443f3adedd5b14d401f719
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202512220828-standard-bullseye@sha256:cc46a19cdf865ba6fc59920e20a5237caa70b00c8dde3d58d0a6fd813264dcb7
