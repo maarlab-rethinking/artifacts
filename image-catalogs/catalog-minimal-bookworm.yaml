@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20251229'
+    images.cnpg.io/date: '20260105'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202512290829-minimal-bookworm@sha256:ac5b6a720af724a55c6816afaa7b05e8666a87e6aba4395e4dbb4badeced2379
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202601050830-minimal-bookworm@sha256:0b00a4e8594f1bfd4c8af7c467a1311a1597f34560d2714455630f1766c28dcb
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202512290829-minimal-bookworm@sha256:271ba4dc02f42025c97e23fb0822de15f7e5b8350bb1e9e95cea7f47867be849
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202601050830-minimal-bookworm@sha256:86e8ec08933d89a9955990535d703b5315cc6bdf69355f44cfd6a26047f9c067
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202512290829-minimal-bookworm@sha256:bbba409508f9ae11c0af192dcea16594d565c4a44f861fca6ce20212e0865f2c
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202601050830-minimal-bookworm@sha256:23a438a55225c979a726006132a6e2f82da8b638edd2cb741cedd09130a0386a
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202512290829-minimal-bookworm@sha256:d26399e0bf8fc7c06223c509f7a7fc606e055312abeb1ecaed9ce2bbf52acd0a
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202601050830-minimal-bookworm@sha256:c17d20017acfff063d36d37bc66f41c2ab798d78b2788490eeb81514b33af862
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202512290829-minimal-bookworm@sha256:33954535785d54a2c9daed70b4862c93a952e9cf3bf593eba1a164c4347444ce
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202601050830-minimal-bookworm@sha256:65a8e86eba6e42bdcb31484a8d53d88bc1e68c761894ca3bff28204130541561
