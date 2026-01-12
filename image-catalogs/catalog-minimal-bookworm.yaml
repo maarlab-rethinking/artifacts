@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260105'
+    images.cnpg.io/date: '20260112'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202601050830-minimal-bookworm@sha256:0b00a4e8594f1bfd4c8af7c467a1311a1597f34560d2714455630f1766c28dcb
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202601120830-minimal-bookworm@sha256:9b2a074fedcaf0e51293be9328e6e904488864e4b64c7ddc7198151272b0a97f
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202601050830-minimal-bookworm@sha256:86e8ec08933d89a9955990535d703b5315cc6bdf69355f44cfd6a26047f9c067
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202601120830-minimal-bookworm@sha256:2d673c0bba2458e02e7f3a62a2ac37a339f0e3f6405376fdd863dd0fcdbf3e1f
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202601050830-minimal-bookworm@sha256:23a438a55225c979a726006132a6e2f82da8b638edd2cb741cedd09130a0386a
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202601120830-minimal-bookworm@sha256:32f39493238dde339596779a222184309cb774bf8c335e98118dc67689ecc981
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202601050830-minimal-bookworm@sha256:c17d20017acfff063d36d37bc66f41c2ab798d78b2788490eeb81514b33af862
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202601120830-minimal-bookworm@sha256:1cd69e5b989697187c2e7c840eca4a7ed4095a94a58f05f8719bbf444e5c2b9c
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202601050830-minimal-bookworm@sha256:65a8e86eba6e42bdcb31484a8d53d88bc1e68c761894ca3bff28204130541561
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202601120830-minimal-bookworm@sha256:c9f6166fc122bf305d625c854e23a10e581a805788cf1d41906c0a2e2f4b4a49

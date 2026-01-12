@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20260105'
+    images.cnpg.io/date: '20260112'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bullseye@sha256:3b91a3a311e10bf5873ba73296208e2741442eb5f0e2a30663ecf88e02472a5e
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202601050830-minimal-bullseye@sha256:9bad833015b054f6a1ca924b6c9e4eb14a7320749fec87ec9df9ba6a3058f980
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202601120830-minimal-bullseye@sha256:a5e08b16d5c27587aafa88560d429a87c8dacd2396ea834de0d83002a050fe52
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202601050830-minimal-bullseye@sha256:caa8093fcc7fd68efe88e9f77ba55ada661b2e51f770975e97f1ab36870adbbd
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202601120830-minimal-bullseye@sha256:b73cbe03042de7bab187dff6d05348d85a9669a37c77ee803a8b0cea05802037
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202601050830-minimal-bullseye@sha256:834a3a1ffc3417564ff0d6cc96bec0826a8849e55df8a8b8d103e581ad69f20b
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202601120830-minimal-bullseye@sha256:af96bed9cc1b1447d450fd353a7742b517e7e2e7a38a999adfebb05d5ae38e55
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202601050830-minimal-bullseye@sha256:7fdbe81ad88b3769719e1ab1e4c1dcfce86a8d5fa8e173635fe46f0de78c26f6
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202601120830-minimal-bullseye@sha256:075507491175480ca54a4b65e6b1373662c8148e3aa9d9d6ddc81e1cb1fd0813
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202601050830-minimal-bullseye@sha256:823cdf77b213a8617649e3879d365202d5b2b2aa385a1b016d34646706ed39ab
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202601120830-minimal-bullseye@sha256:255257f537b1ce6ebcb00bc7cf8380cf045945c42db2597863be556e4bb4146b
