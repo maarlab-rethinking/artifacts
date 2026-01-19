@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260112'
+    images.cnpg.io/date: '20260119'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202601120830-minimal-bookworm@sha256:9b2a074fedcaf0e51293be9328e6e904488864e4b64c7ddc7198151272b0a97f
+    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202601190830-minimal-bookworm@sha256:8ca91913b326cb879959e24579b22330e75ce93c76dc479025d074cf28fad598
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202601120830-minimal-bookworm@sha256:2d673c0bba2458e02e7f3a62a2ac37a339f0e3f6405376fdd863dd0fcdbf3e1f
+    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202601190830-minimal-bookworm@sha256:9bb36724c74a5c51bdf0f2af3eede5c2651836eb65a84fc7f3e74c5bd4a5949c
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202601120830-minimal-bookworm@sha256:32f39493238dde339596779a222184309cb774bf8c335e98118dc67689ecc981
+    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202601190830-minimal-bookworm@sha256:f0eaa4a8793644ed9a831b81a4302d96fd4fdf229cef8f143c86f5ee364a50f6
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202601120830-minimal-bookworm@sha256:1cd69e5b989697187c2e7c840eca4a7ed4095a94a58f05f8719bbf444e5c2b9c
+    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202601190830-minimal-bookworm@sha256:4ade2db1a53d7bc5861dde01ef03e6548e4d9c38f30c59329601e92b6409f910
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202601120830-minimal-bookworm@sha256:c9f6166fc122bf305d625c854e23a10e581a805788cf1d41906c0a2e2f4b4a49
+    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202601190830-minimal-bookworm@sha256:50daf6b84122fef1a7af8441136ce069d72bb855aa4c2faa8845890c4d84129d
