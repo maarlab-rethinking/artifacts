@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260209'
+    images.cnpg.io/date: '20260216'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202602091135-minimal-bookworm@sha256:334cb3a0cb9c7c10733273892421bee9d26f5f149e6bfde2f8aef8f8579cc119
+    image: ghcr.io/maarlab-rethinking/postgresql:14.21-202602160843-minimal-bookworm@sha256:8bc466a32d3ef80fa9d15bf41c9840cf9fc455796d005f4cd9342a8902159496
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202602090852-minimal-bookworm@sha256:a7e3953ec6ddb248f8aa8f80c2fd5121b6e07fb71ed11cfa9efff57b09d0c0f8
+    image: ghcr.io/maarlab-rethinking/postgresql:15.16-202602160844-minimal-bookworm@sha256:82cc9182d4a6e6608c8efe2a571e6ba8bcfbe143e8e59b29e465559568557caf
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202602090852-minimal-bookworm@sha256:56944675031b0c6b7f9c1bbb7e37e9e5d9c546b04bb061b5392331e3a1510fd4
+    image: ghcr.io/maarlab-rethinking/postgresql:16.12-202602160843-minimal-bookworm@sha256:08aea61f4e5a11a8cd93d490e3f769e94147a987f0dbacaecafd39564f7306ce
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202602090852-minimal-bookworm@sha256:145ad49a70ce0b85324c2def0c9812f01e95b05103e14beb4be5b48cd798ae99
+    image: ghcr.io/maarlab-rethinking/postgresql:17.8-202602160843-minimal-bookworm@sha256:f1550585ee10322dc2a40bd23a8395a536d4cb94eb161e3893200f590edc695b
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202602090852-minimal-bookworm@sha256:d864cb5b6e839a675af09b6e8d5931fb9a927f566608e4a281a559ec2fe1b58a
+    image: ghcr.io/maarlab-rethinking/postgresql:18.2-202602160844-minimal-bookworm@sha256:24b726d72601081799288560efb7438e510af2a78409997b473569173f47cab4

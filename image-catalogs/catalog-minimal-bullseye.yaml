@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20260209'
+    images.cnpg.io/date: '20260216'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bullseye@sha256:3b91a3a311e10bf5873ba73296208e2741442eb5f0e2a30663ecf88e02472a5e
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.20-202602091135-minimal-bullseye@sha256:abf7ff56bc7e6994bb2268f05b4447aef23798553054f94855783e5358c19daa
+    image: ghcr.io/maarlab-rethinking/postgresql:14.21-202602160843-minimal-bullseye@sha256:2e02fe350bf2d96140647e93ce26115f2ece583ddce3917344ba01a624429b6e
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.15-202602090852-minimal-bullseye@sha256:d67356ddd5c0c4d1a83fc9ddfc72872547de2cb6e9c132a4442416e0827bcd75
+    image: ghcr.io/maarlab-rethinking/postgresql:15.16-202602160844-minimal-bullseye@sha256:e8361f55bc37109881a91f5d5a793e42338500a66ecfa57e08c31f2280fcc574
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.11-202602090852-minimal-bullseye@sha256:63cc4f3ea7253032a9766f891db6c14ff4bd7c8be8f9bf3b58609556c2c260fa
+    image: ghcr.io/maarlab-rethinking/postgresql:16.12-202602160843-minimal-bullseye@sha256:f3769a153b7c9e92957b331bb01aced5fb62242564150fe21a3e2adb3cabb445
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.7-202602090852-minimal-bullseye@sha256:6464b0177ad7452764b063418d5aaf76b89d1fca2c25e16f97320303a14e050c
+    image: ghcr.io/maarlab-rethinking/postgresql:17.8-202602160843-minimal-bullseye@sha256:1343d7dfa1884348797366b45a03075ba12232e3a1c0b85713f9b0466d8ddb21
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.1-202602090852-minimal-bullseye@sha256:04008c2695e279ad91980de771062eda45fb788fd89aa98f465f5e3fe7685a5a
+    image: ghcr.io/maarlab-rethinking/postgresql:18.2-202602160844-minimal-bullseye@sha256:acd0627e21692f0ef386704229065f140e33d696398242a3fe4f3e7dfd109bbc
