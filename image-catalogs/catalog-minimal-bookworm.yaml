@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260302'
+    images.cnpg.io/date: '20260309'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202603020841-minimal-bookworm@sha256:d8ebbb7f79daca506eb9a1c95345170ca22ef64385fecb934591690500f5ff76
+    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202603091530-minimal-bookworm@sha256:80f254c8df376a0bf941a5031ed6344f69df1b154a3f0992ea66e8c9c94d4023
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202603020841-minimal-bookworm@sha256:aabd3c6a0bb1c4307303be051aaaf8e2963a1d8eef00f4bd4787cd386097dc79
+    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202603091530-minimal-bookworm@sha256:e51327e935b3c7c0a9cdc5de6c8c196f9a7050281ead53dbba1bc1d30c1d1514
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202603020841-minimal-bookworm@sha256:b8d621b963f9363ec5709fc7967addf3565015309871124b2bdd00d38c5e1a43
+    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202603091530-minimal-bookworm@sha256:e4fd498e37924e8bbedec58532e63a4380928830659d6a4bfa63a1d564c3f501
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202603020841-minimal-bookworm@sha256:061f8d64f2ec3c2b2b1a127746c9bf4ef0eff3ae7650f3cca986d28a5ae7ab70
+    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202603091735-minimal-bookworm@sha256:cf683ed04a0eb027c73451f15a756ce68d7de6c683b3301d093caf490b05cc7e
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202603020841-minimal-bookworm@sha256:b99f4ad89c1dc031df0618bf7116b655e6cbd3dd73b0944e0ec364af3245b499
+    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202603091530-minimal-bookworm@sha256:fcdc900ed58fe5150edcbe8a807177cb980c9771ce8593d5a324a3610e9e7cbd
