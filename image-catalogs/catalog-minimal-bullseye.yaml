@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20260309'
+    images.cnpg.io/date: '20260316'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bullseye@sha256:3b91a3a311e10bf5873ba73296208e2741442eb5f0e2a30663ecf88e02472a5e
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202603091530-minimal-bullseye@sha256:7afc23e7dd9db0e540e061bf6c0a02351ae8eda46fd2668dd7c4577e1d1ced80
+    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202603160854-minimal-bullseye@sha256:d1069e51f6a9cf9cbce5c10e90fb1384346a9c7a12bb4bed63e6d522fcaf1347
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202603091530-minimal-bullseye@sha256:b6762d96c45da2718b580d88a48193be883c337ecb884e8025cc1abff01d6a8a
+    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202603160854-minimal-bullseye@sha256:58ad6eef4f5d73277f98ca8ccf74263c5eee73e48e5394221c77b31918c61503
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202603091530-minimal-bullseye@sha256:efacf3a20a5761355f7b7938f6d816d0c70a9ed4c6f2a8bc0468f0cf094d37a3
+    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202603160854-minimal-bullseye@sha256:e5ad085892858bde6d836919f1d4bd0ecdf895a0bbcfda2a8344023e893b2ba5
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202603091735-minimal-bullseye@sha256:5dfcd08e27dd4c4f9ee2e4a675772ee0fd1efd60aa037fc7166c631606aa5c16
+    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202603160854-minimal-bullseye@sha256:89c9a7715cbd30962fd90dc9791934cd9ccaad1264fa5e69a997c287fc823fba
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202603091530-minimal-bullseye@sha256:d6ff9ed2790b24f958ec0081d0a51b86cdb2b596c524d67ea675a4229e40389e
+    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202603160854-minimal-bullseye@sha256:b642f20f5d376fd80acb5c371ba983bc1be255699d6515befb32f428899a8e66
