@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260409'
+    images.cnpg.io/date: '20260413'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-standard-bookworm@sha256:a381f2cde7cef50295de34721bf8568b835fca0963d03a164e3c249f237ea1c6
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202604090903-standard-bookworm@sha256:636bb45a4ba274976dcb572ca8cd8e47cc3c0bff00f6742e871bf9bf257184ff
+    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202604130953-standard-bookworm@sha256:30826933ce89faa0ce4574c23cd7fabe481e9d4257957e3ded9be41b7c43aa64
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202604090903-standard-bookworm@sha256:7b67f924546088bf04531337fd8606f977c9c0afae371fa45b087b1845c358a8
+    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202604130953-standard-bookworm@sha256:e60b9c19ea6916e9f0e667e355b743e1b7610eb1ecbfd2defca8d09c866a5de7
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202604090903-standard-bookworm@sha256:651c46d1c4c5c57fb6ec171f47d8b4c70fa675237f668983dcae4764c1fcba1a
+    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202604130953-standard-bookworm@sha256:54ec86387f01c9e716d6c2a5a354eb54b7179000ffd9b46639899e65d5c8ebc9
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202604090903-standard-bookworm@sha256:5e356169ee36673e3fb3389a2499b2c218d63958bf2c4b00058bcdb232842483
+    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202604130953-standard-bookworm@sha256:872a3044472e80d5118b1cb744140d9b8afe9b6232b3b913b7a44d41a4dc1d97
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202604090943-standard-bookworm@sha256:6fb5198e0184daf092adcb8c02d831d862230c7a8338f0248c4459bc19886cb8
+    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202604130953-standard-bookworm@sha256:190f9bb7a437a2522aab2b8fe2d69bc9bbfb7f068c55f5ea1e24fa16234a0b0d
