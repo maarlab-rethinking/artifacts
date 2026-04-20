@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20260413'
+    images.cnpg.io/date: '20260420'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bullseye@sha256:3b91a3a311e10bf5873ba73296208e2741442eb5f0e2a30663ecf88e02472a5e
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202604130953-minimal-bullseye@sha256:09823ea6aefd7c962807a0b1f4c05d6a7f45268d2db52924aa238f3918c8a6ec
+    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202604200956-minimal-bullseye@sha256:b64877a688afffa546b8a4bbcaf344a100656472ad1e03d8c717b12b8c7a0909
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202604130953-minimal-bullseye@sha256:e56d93d6e91362ef5f6755d1410d3379f805658f66003ef460f70e8b6e74216f
+    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202604200956-minimal-bullseye@sha256:8b700e2a01a188c43a1a30a48edc4145c494867d61a91e3d89d12283c70d3d3b
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202604130953-minimal-bullseye@sha256:c7d13f7a4359c34a173387b446064420f1ec41561f7044120a0dcb8ca42dead4
+    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202604200956-minimal-bullseye@sha256:d6d605686e7efee204c581d018e1915b1af677ba0b8c07f3c0828d1e73e1a4de
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202604130953-minimal-bullseye@sha256:3ed2759ceddcd53cc7ac605fe21c7633c55475c2987ef3b9c3aede37e0c7b9ae
+    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202604200956-minimal-bullseye@sha256:290da7e1bb84decfea6bc9f96be31808af52993930887a1f6a3c1dc2c3e72b70
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202604130953-minimal-bullseye@sha256:1081ee7e2656f58522ec45d0ed7afd1e2d377096e302f705d2c095800a7c673d
+    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202604200956-minimal-bullseye@sha256:973817ef51031f1c22ba6b4bc8e75c07accc9107c9a6739c976b0c1c4090bcb6
