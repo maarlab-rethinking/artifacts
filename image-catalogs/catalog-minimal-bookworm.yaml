@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260420'
+    images.cnpg.io/date: '20260427'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202604200956-minimal-bookworm@sha256:34cda4a8faa049a936f8c9afc8cf09eb74a53aba30c1b9dc929775b3259b7c36
+    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202604271012-minimal-bookworm@sha256:26547692d60eef07e91cc589a3e750a03e081c5b5ae0d60a551c40c872b483c4
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202604200956-minimal-bookworm@sha256:996ce68a302dc1ce8b85623fff3d9e20ca9dd2f528adfadf55e09a40658383ee
+    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202604271012-minimal-bookworm@sha256:74a687057049da63ede965ea68879a546a50f87fb4fb10326956870b25ec2acf
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202604200956-minimal-bookworm@sha256:8cda1a652090aec8cf2d2b63c3b3e897065ea95c65dfddb3e103bce0dcaeacc9
+    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202604271012-minimal-bookworm@sha256:2cc4e1782d712de7379e5c44d2f789b1c12feb58c69c9c9b102bcf5d996df75f
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202604200956-minimal-bookworm@sha256:deeed040c2381612684e3b32abc33d3156269c1d150696be79ac8d21e1676f05
+    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202604271012-minimal-bookworm@sha256:00515bff60bdc4bba36eb7ac3b6e84f0c5f045b803b325f7e68e539d22a7193f
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202604200956-minimal-bookworm@sha256:f9813de68bc9d23f4d3d25cf193c4afb80bb977113d49706729b3dd0bfc96b9f
+    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202604271012-minimal-bookworm@sha256:0192b257f4b83934774d9e286fc766afd31743e5582be0dd587ff11ad3db3fcb
