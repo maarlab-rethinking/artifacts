@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260427'
+    images.cnpg.io/date: '20260511'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202604271012-minimal-bookworm@sha256:26547692d60eef07e91cc589a3e750a03e081c5b5ae0d60a551c40c872b483c4
+    image: ghcr.io/maarlab-rethinking/postgresql:14.22-202605111115-minimal-bookworm@sha256:e255df16e79c4f7ba2eaea3c6079edae28026ecb7d31b4f89ff5384cf6f6596a
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202604271012-minimal-bookworm@sha256:74a687057049da63ede965ea68879a546a50f87fb4fb10326956870b25ec2acf
+    image: ghcr.io/maarlab-rethinking/postgresql:15.17-202605111115-minimal-bookworm@sha256:edc61cde35370ffbbfbd3299544e8ed2c376cc00bbb7f5ef654a463925e9272e
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202604271012-minimal-bookworm@sha256:2cc4e1782d712de7379e5c44d2f789b1c12feb58c69c9c9b102bcf5d996df75f
+    image: ghcr.io/maarlab-rethinking/postgresql:16.13-202605111442-minimal-bookworm@sha256:5ecf8cc972ac4539a4db21a26fba01f1e6d145295cc6e3808e5fde08bc56e06e
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202604271012-minimal-bookworm@sha256:00515bff60bdc4bba36eb7ac3b6e84f0c5f045b803b325f7e68e539d22a7193f
+    image: ghcr.io/maarlab-rethinking/postgresql:17.9-202605111115-minimal-bookworm@sha256:44a155dfb91ea80ff2b3d2054168acc78101db9ce65df0ac8d1b62e05723f255
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202604271012-minimal-bookworm@sha256:0192b257f4b83934774d9e286fc766afd31743e5582be0dd587ff11ad3db3fcb
+    image: ghcr.io/maarlab-rethinking/postgresql:18.3-202605111115-minimal-bookworm@sha256:994cee16e29023801ec4cbb5a52c861051a247deff82c6c2851d918f32c628e0
