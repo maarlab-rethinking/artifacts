@@ -6,17 +6,17 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260518'
+    images.cnpg.io/date: '20260525'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202605181142-minimal-trixie@sha256:1a2dc5f60c1cc6d4c324491f85c6c0cf5f9ade846bed829c6fbdf6b9bb8428d7
+    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202605251151-minimal-trixie@sha256:8d596612e2d4ef81e94ccc09acc6a12626c5990ce09c1834f41e014f64a17e74
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202605181142-minimal-trixie@sha256:e8528d4f15a1619e2d73f7241a340e682daf12877d1f41a76def36ad805fe9ae
+    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202605251151-minimal-trixie@sha256:0558f2153317b7c385a7fa9cc3764ccee18ab324dcf7050fb4c324e20db51a71
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202605181142-minimal-trixie@sha256:00dfeff5fcbf49e12c3ac750c46a272ceb4448fcb2f925f75b9b37a4c172214b
+    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202605251151-minimal-trixie@sha256:7ece08314ca6ef87965bbf02bcc5d23132807bec3a19c9168a9aa27d32e153d1
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202605182130-minimal-trixie@sha256:29fc6dfa3177a48e79b9a3ee43998478060b3e59ebe248daf9da2c1c072099da
+    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202605251151-minimal-trixie@sha256:8cb4482328e2d3b119bca24e91677d54f9eda3cf02097a2e2192317e7b69c81b
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202605181142-minimal-trixie@sha256:ab4c1f23f569b569b1588120c3261cbb730a6223b81a82e0aac4206e109a9339
+    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202605251151-minimal-trixie@sha256:3cbf533ce0f9211bf3bb12cad37c38374a125c6c420ba42a813a3aa047a492f1

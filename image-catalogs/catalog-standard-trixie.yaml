@@ -6,17 +6,17 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: standard
     images.cnpg.io/os: trixie
-    images.cnpg.io/date: '20260518'
+    images.cnpg.io/date: '20260525'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202605181142-standard-trixie@sha256:f03c1734bf29f77f944d0f6050192db61f34f51d24629882df165b579baac6ef
+    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202605251151-standard-trixie@sha256:863af93bd2a662c65d01916d4a8512cd0ff7180f3dbe4212fded1c809cf0c58d
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202605181142-standard-trixie@sha256:52733598c880ec998527047fe0b9cff9630e0023896aa9c740c0aa8851825ed2
+    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202605251151-standard-trixie@sha256:29ea59a8ee01f4f05a087d6ee84e2742618f84fa46d3e93bc5c820acf7aa4c7a
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202605181142-standard-trixie@sha256:76151ced69474b8abd627524644788794d32f95ac81cc5c61a32379344d1533c
+    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202605251151-standard-trixie@sha256:58f687a147a9eab1f84940bbb79357208c5e5504520c39b2211181dd464041cb
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202605182130-standard-trixie@sha256:38c16086bd28af5ba738c64e3ad086b1c71594c07d47432aa9291453e262e801
+    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202605251151-standard-trixie@sha256:1cd46b2400dd33e211408bea99bb030c26981f5f23ce92df998c6952bc4bea76
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202605181142-standard-trixie@sha256:00b4548c56c67a691e3d98530f63c3723ca8facf147d69a0539af976b9c4dd90
+    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202605251151-standard-trixie@sha256:3e3e81c58f26e52e1265f7934bf4bb4802a7d256c5f907957a4828fc099527f1
