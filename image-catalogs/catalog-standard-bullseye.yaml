@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: standard
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20260601'
+    images.cnpg.io/date: '20260616'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-standard-bullseye@sha256:5df72739a0e6a8298e6a4ac9b8ba5c6fd460564d96cc6d1a1f3ee066b8cca003
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202606011708-standard-bullseye@sha256:1e4efbcf04262282259a1180cbebbc6507fb7e72f8e3c9574c07de9d0fc3dec5
+    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202606151352-standard-bullseye@sha256:aec03d0645a1fc6e4fdd3badcded26231429620ac6310d84c0790f1fe9c78cc2
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202606011334-standard-bullseye@sha256:cf1a0cb552b397ebb957e3785edcac138db0370f6a88d7055b5671b96f0f61cd
+    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202606151352-standard-bullseye@sha256:773f8463ce6df76f489011900b7adfb5cee86d9bb78ac9f50b0aeeb8b7afc847
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202606011334-standard-bullseye@sha256:51484fff5c0b1935d46209eec1887e4efe2673a4eb683a33578c601ba525037f
+    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202606151352-standard-bullseye@sha256:a62b3784d5b593086684cba5d600b281be24a520be4947fb7c21e894e2ced396
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202606011334-standard-bullseye@sha256:23d4cf73469c8ea42f6a3ceee233acc37b2b6e404d4a94941699cbbb78ca20ba
+    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202606162034-standard-bullseye@sha256:c67edaf1b95649f49138d6cd336b220aad7d25185af126d8f72d745f105b5ea6
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202606011334-standard-bullseye@sha256:3c7596b89c380f1eaac74606da2e18164bf2c93a017bd55cbdf2b1d4ae15039e
+    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202606151352-standard-bullseye@sha256:57cc1b9abb61aa95435ffbcc0e099ffd58368a9bb2161279f00f98e85074ea46

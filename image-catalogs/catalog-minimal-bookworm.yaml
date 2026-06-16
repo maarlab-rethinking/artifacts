@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260601'
+    images.cnpg.io/date: '20260616'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202606011708-minimal-bookworm@sha256:80d9e4329e0884218098c9ac298e4e08050e5bb6958a0e8ad7960396df94ec81
+    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202606151352-minimal-bookworm@sha256:bfd6688fc15be186c6bd97c4a129735c0c481502e9f891f3c368a99f2ef07779
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202606011334-minimal-bookworm@sha256:ba3a688d53720cf843ac79e9da4def806fc5d9c1007d2b1659deef49d9ddf88c
+    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202606151352-minimal-bookworm@sha256:c68172ded5d82e194b3f8c3311f038b55af0943b5dde66ade500b81ec5068157
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202606011334-minimal-bookworm@sha256:2df595fbbe9f8e0d62515f03dd5b7331bb4dc9e7c0d9fc60a08d9ae5429eff31
+    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202606151352-minimal-bookworm@sha256:61fc71a77db70e3af9022cca6444585eb30046cd457d313ebb2137d8c6ae28f8
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202606011334-minimal-bookworm@sha256:b9840e0b42e507bee48278a1d279de0019746ea5d1ced3936bc801366293a4cb
+    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202606162034-minimal-bookworm@sha256:cf8d09a99ab3427989eb1ab583d3640a39f69fd0f1b9ec48abeb8755ca222c03
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202606011334-minimal-bookworm@sha256:98eb89cd9588a18cd5dd1508aa12549230912a67ee2439df9b8a606e3747bfb6
+    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202606151352-minimal-bookworm@sha256:cc3c5e76dbd6f07d2f15b5b24feda4ef9eac629961bdcd7ff62970c3b6ad7e64
