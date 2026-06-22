@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260616'
+    images.cnpg.io/date: '20260622'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202606151352-minimal-bookworm@sha256:bfd6688fc15be186c6bd97c4a129735c0c481502e9f891f3c368a99f2ef07779
+    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202606221332-minimal-bookworm@sha256:980e164e0889f221d2b1cbabb9be4d4b1a344927af895029b9d3cc2b817ce0d2
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202606151352-minimal-bookworm@sha256:c68172ded5d82e194b3f8c3311f038b55af0943b5dde66ade500b81ec5068157
+    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202606221332-minimal-bookworm@sha256:140dafc276393b7ec7fda92dca11e6062eacf1f33d2917fbfe3f976097f0771c
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202606151352-minimal-bookworm@sha256:61fc71a77db70e3af9022cca6444585eb30046cd457d313ebb2137d8c6ae28f8
+    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202606221423-minimal-bookworm@sha256:eeb24bbae713f463512ce69db3262fecfd957380128e0373cac43b79ca2cb54c
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202606162034-minimal-bookworm@sha256:cf8d09a99ab3427989eb1ab583d3640a39f69fd0f1b9ec48abeb8755ca222c03
+    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202606221332-minimal-bookworm@sha256:1d0cc98e4ae1571658866e78dfb7523c0a0b16d006615255bab7a986741e51a7
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202606151352-minimal-bookworm@sha256:cc3c5e76dbd6f07d2f15b5b24feda4ef9eac629961bdcd7ff62970c3b6ad7e64
+    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202606221332-minimal-bookworm@sha256:efd40b59a13cc45ca301390aa8944c32e2408c19c4ac3f30774826711a88e103
