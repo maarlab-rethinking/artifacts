@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20260629'
+    images.cnpg.io/date: '20260713'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bullseye@sha256:3b91a3a311e10bf5873ba73296208e2741442eb5f0e2a30663ecf88e02472a5e
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202606291229-minimal-bullseye@sha256:cf272fccfbd377c52cdb503c239f1efa1a4f73268e64f2ffaf12a4e2bdb7891a
+    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202607131058-minimal-bullseye@sha256:4cd74f44459d6095c2db23e560729d389c9601bb92c91f32dfe427cf66e65fb1
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202606291229-minimal-bullseye@sha256:1c8dca840c02d29bca0da26cbe79180eacb93250c0be8cfb80830082805d102b
+    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202607131058-minimal-bullseye@sha256:82ecdd0dc7171562038afb9577a65ba8f2baea13c4b63bd732c2c6642231f858
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202606291229-minimal-bullseye@sha256:bb5b287f96d6e7443933e1c0fd74a25d20182af5020fa36d88a45f87eaec6752
+    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202607131058-minimal-bullseye@sha256:9a6222b94fcc71b90d33b56fd588fb2cbd592005cf160b733f7361b47928348e
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202606291229-minimal-bullseye@sha256:207624e5ad845f0c1ddc8f4ef8194d0d6fa6f4eb2275d674d23dc7ebaae8c80f
+    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202607131058-minimal-bullseye@sha256:41bef277c06f42276246afc37e55b82132d5885514b35d28c924ec6e329d6cdb
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202606291229-minimal-bullseye@sha256:4340bbfaa090795da77629fba80d34bf2bbabcb8918e73ee64c68afe767b5ef4
+    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202607131058-minimal-bullseye@sha256:6ecb46b5594aa9b8d23620e6cfdc004291ac217f7967465a45fe0206d7a18fa5
