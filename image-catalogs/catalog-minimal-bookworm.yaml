@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260713'
+    images.cnpg.io/date: '20260720'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202607131058-minimal-bookworm@sha256:d6f2e8ad4eade1a79290ae3ac3f49fa895ecc798b7259f7de0e9c7ae49188b7d
+    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202607201049-minimal-bookworm@sha256:898d668cd29e5d2e7939e557031ca0b32be69d7b0733bb6056268d8bd26453a9
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202607131058-minimal-bookworm@sha256:d879015920851f65232e79c5dc29d62078ca232c6d6cae57685bd5caf13f396e
+    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202607201049-minimal-bookworm@sha256:5609ae4298f2825e30d5b37ba04e494223c339f3e6e539e674b0814377383063
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202607131058-minimal-bookworm@sha256:f07ae527cb7538eb1277a6f494542a815b67b41ac54cc7fc0dc47a5644a742f8
+    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202607201049-minimal-bookworm@sha256:b29c0d778be61200593a0597890e26a9bb574d7609b19a38a1bf42dda3d392d9
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202607131058-minimal-bookworm@sha256:67e19f3af34ecd9dcb31396521d2c9e0435fda49f2a15f014a829d8947f73559
+    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202607201049-minimal-bookworm@sha256:902987470dafdcd2cdb554dcc15b9c070fc6c4a5276b685fee3d04e46b5cfc56
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202607131058-minimal-bookworm@sha256:9bf403725080a0231b6242f9bcd0aa859c3827debf6be8e7249bed5f3434a1f8
+    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202607201049-minimal-bookworm@sha256:60a54739b42e7f9182f9e672c3dd7230b5b2f7685f3983cd23a1fb7210da0b6b
