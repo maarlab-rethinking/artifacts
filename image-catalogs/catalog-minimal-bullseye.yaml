@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bullseye
-    images.cnpg.io/date: '20260720'
+    images.cnpg.io/date: '20260727'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bullseye@sha256:3b91a3a311e10bf5873ba73296208e2741442eb5f0e2a30663ecf88e02472a5e
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202607201049-minimal-bullseye@sha256:a7277b58ee2f1178a64d02a26e6a3fec76bede58bd9bd9177eac457e6c05b426
+    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202607271117-minimal-bullseye@sha256:09ebfaa2f9ac785fc921a5ccd582d8a1923a3726a14051a318856be6503bb94c
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202607201049-minimal-bullseye@sha256:f89f6abf54dcbf0a44dcc8791b39f9517d0353c0c7ea66e2bba03ee8332dc444
+    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202607271117-minimal-bullseye@sha256:4085dd5874ef8989582d50454f569836d36efa92747a2246e85120948eba32cf
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202607201049-minimal-bullseye@sha256:a18fe4f3211367ce21f2f66ae38ee6762f5e586ebc3cfd14a93190a1f53ecb3c
+    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202607271117-minimal-bullseye@sha256:56b2956b41fea450860d4ef1bdeac3b06e022ed77d81c4d67e467a740272e932
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202607201049-minimal-bullseye@sha256:8c21001ee007929160cff72c34fa04f4333bce124677b2c17106d630efe5e96b
+    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202607271117-minimal-bullseye@sha256:267455c594b5b6c34287ddfe6f1f35499cad34f90bd7cf3e64b61a6af4d65c89
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202607201049-minimal-bullseye@sha256:18025db9e94fa11d9f3dd0a5bc0c5c49f0af7159ca375864bda2c61d6604ff5d
+    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202607271117-minimal-bullseye@sha256:146c14659b1ae4913769ff09506da89943591414e1323b5d2f01e20466d48d1d
