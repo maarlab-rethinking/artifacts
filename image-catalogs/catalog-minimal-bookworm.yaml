@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260727'
+    images.cnpg.io/date: '20260804'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202607271117-minimal-bookworm@sha256:75682c984cb887ca1a6c4ea2b2937989abe061cdc1a956110dd7dbc774eb0352
+    image: ghcr.io/maarlab-rethinking/postgresql:14.23-202608031119-minimal-bookworm@sha256:4449d8ee74f79e2d39fcc98e055b75fb3e750bb98c5db9400a72ef75f1f6f075
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202607271117-minimal-bookworm@sha256:d78343b2ccbba75a73d3af2246168ea7ddaa9be71bb71f29556f409411493a68
+    image: ghcr.io/maarlab-rethinking/postgresql:15.18-202608031119-minimal-bookworm@sha256:192a9700412df1f3760a392f5224cb5aac75e2ada4cef270762a54fc6a8fc127
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202607271117-minimal-bookworm@sha256:4b9ff32cb88bc90efe7e19b7b7e42412dfb5cfbbac0f98037f028db6175babf8
+    image: ghcr.io/maarlab-rethinking/postgresql:16.14-202608031119-minimal-bookworm@sha256:2991b715c80b263c4e4226b18a3d5933d09dcb1f3bd3d7a1157df07c908baa8f
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202607271117-minimal-bookworm@sha256:8b71ae7f68353250a9761ac671beb5259809fb1d4cb78f0de1d1f1588d9cccee
+    image: ghcr.io/maarlab-rethinking/postgresql:17.10-202608031119-minimal-bookworm@sha256:81a0440bc25b811a5589388267f78d4418a8b140406625c52127119e5fd82593
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202607271117-minimal-bookworm@sha256:d16a30d671757a718e20895794095723e4d38f52c967e0cea1c79cf28fd94177
+    image: ghcr.io/maarlab-rethinking/postgresql:18.4-202608041437-minimal-bookworm@sha256:4ad70608e57260d840223c5496a48040ebf15fbfa9ad561ff63358119e6b8ca3
