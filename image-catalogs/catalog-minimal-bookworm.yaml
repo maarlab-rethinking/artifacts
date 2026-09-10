@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260831'
+    images.cnpg.io/date: '20260910'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202608311549-minimal-bookworm@sha256:b7102ce84a0bc50001876e7852b2b451eb12e24fcecf8617b8da823bbeab1f1d
+    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202609101554-minimal-bookworm@sha256:35389559e8fe0e6c6fd17bf4978e21ca615afa9ff38c293896f26f0edc5487ae
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202608311550-minimal-bookworm@sha256:8e8838bd8c69dbb4c476debb03183fdd8078b684e0afb3738b7222bdbc0fe01e
+    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202609101554-minimal-bookworm@sha256:62a2478c9f4e1b13d80c9f599435623f5f80c0062cd924baaecad8abfc08fdf8
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202608311549-minimal-bookworm@sha256:d39e078f7b2c04176720389756fd4dd12061a0ff9f987e5b6409db372ce103b6
+    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202609101554-minimal-bookworm@sha256:05ead3e5d0faed22bf5fa60c539c05b5033cc81b1201b9a2435e76627d88bd52
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202608311549-minimal-bookworm@sha256:667ad1eee9293c58be36eeec5a5a896e188b9baeac67988e0614921943728b4f
+    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202609101554-minimal-bookworm@sha256:52631e12956e8cca532e838c9bbf0add0b372c30b9652f96c8b78438bd297bbf
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202608311549-minimal-bookworm@sha256:32a3df670cdbe1575620349afff206acff6fef970fac040e5d956bbdaa80b2a4
+    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202609101554-minimal-bookworm@sha256:e6c41c6a4cc6640fca96513bbcd365b38253d2bf2a82eb80cdd157528a1d1318
