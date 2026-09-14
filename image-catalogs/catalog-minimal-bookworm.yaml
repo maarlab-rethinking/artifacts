@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260910'
+    images.cnpg.io/date: '20260914'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202609101554-minimal-bookworm@sha256:35389559e8fe0e6c6fd17bf4978e21ca615afa9ff38c293896f26f0edc5487ae
+    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202609141444-minimal-bookworm@sha256:43a9baed101e8988276df4b94f7641d5cb181bae47259cb5240839eefb66e6f9
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202609101554-minimal-bookworm@sha256:62a2478c9f4e1b13d80c9f599435623f5f80c0062cd924baaecad8abfc08fdf8
+    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202609141443-minimal-bookworm@sha256:58cc80f902c371a15a8bac8e93b08ee19a4bd03a5ed8e9ac69e195e143a2d3e6
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202609101554-minimal-bookworm@sha256:05ead3e5d0faed22bf5fa60c539c05b5033cc81b1201b9a2435e76627d88bd52
+    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202609141443-minimal-bookworm@sha256:2919eb7a1e8c931ca6092fdfe55134bef9a72ee4aaf27bff36271c5812b64b6b
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202609101554-minimal-bookworm@sha256:52631e12956e8cca532e838c9bbf0add0b372c30b9652f96c8b78438bd297bbf
+    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202609141443-minimal-bookworm@sha256:5d2e523632270d948e16b0a2978c25ea6dcf38815e6db64c707f352ee1ac1434
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202609101554-minimal-bookworm@sha256:e6c41c6a4cc6640fca96513bbcd365b38253d2bf2a82eb80cdd157528a1d1318
+    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202609141443-minimal-bookworm@sha256:12b327b767f160a655c4ef09319dbbde63b6ddbabd70caf9d93d5569347c30a2
