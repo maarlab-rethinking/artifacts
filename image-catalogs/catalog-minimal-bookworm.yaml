@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20260914'
+    images.cnpg.io/date: '20260921'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202609141444-minimal-bookworm@sha256:43a9baed101e8988276df4b94f7641d5cb181bae47259cb5240839eefb66e6f9
+    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202609211450-minimal-bookworm@sha256:c684a7d204cd05092783107cfab4a137bbbba1799455b036630fc0206b331ba6
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202609141443-minimal-bookworm@sha256:58cc80f902c371a15a8bac8e93b08ee19a4bd03a5ed8e9ac69e195e143a2d3e6
+    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202609211450-minimal-bookworm@sha256:3773e17ad7ca3ace6757aee1b04cc21a040dfb594a536587cb414950f3c242fa
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202609141443-minimal-bookworm@sha256:2919eb7a1e8c931ca6092fdfe55134bef9a72ee4aaf27bff36271c5812b64b6b
+    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202609211450-minimal-bookworm@sha256:2754fe16bb82193bc67a1b5af76c83d91a6989605ffb0a48bec678729f960f9d
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202609141443-minimal-bookworm@sha256:5d2e523632270d948e16b0a2978c25ea6dcf38815e6db64c707f352ee1ac1434
+    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202609211450-minimal-bookworm@sha256:a4cdf53e08aad17a792951bd7f0d768d969942d234ddb9ccbd9d27cd55dc777c
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202609141443-minimal-bookworm@sha256:12b327b767f160a655c4ef09319dbbde63b6ddbabd70caf9d93d5569347c30a2
+    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202609211450-minimal-bookworm@sha256:af1d0749997533350e7ae2abedecd462eb45c525167b5ebd5aed7445d00e9049
