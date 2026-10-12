@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: standard
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261006'
+    images.cnpg.io/date: '20261012'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-standard-bookworm@sha256:a381f2cde7cef50295de34721bf8568b835fca0963d03a164e3c249f237ea1c6
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202610061037-standard-bookworm@sha256:a22639962ff73d9fec41a705a9dd334198258fa6dbffd564faded712a89658f2
+    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202610121720-standard-bookworm@sha256:90c9eb776e9c9ec5593210478b96771ed3b8ef909b9d97e0182e99b3a0c4c3d6
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202610061037-standard-bookworm@sha256:c72b4c818c4d13a02fed67b572d309c8f533c6e9f7001d07d950c8a7c6173da1
+    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202610121720-standard-bookworm@sha256:8126cc9964e2ed3b5843ede0c2590b840c97d0c3e7c4f753e737a669406e7ebf
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202610061037-standard-bookworm@sha256:5afaa3a201d89ce60686aae9fb69419c647a99ec757ab42e8ff3f718e018d710
+    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202610121721-standard-bookworm@sha256:b8f5255be1aa09b521f578836d2015dffbe936b6f0fb83262beac2360cefbfa4
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202610061037-standard-bookworm@sha256:16f7ea82e909e9b3c84edb343236b0eea360ac47bdcfc8d171925a2ea7ae7011
+    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202610121720-standard-bookworm@sha256:c362446318ee883450ff401f07e7036ff336578d7854b6eb5537307a4d069e64
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202610061037-standard-bookworm@sha256:3b6c2859cd75ef3bde7fd3dd75386c8bcba73bcf6b170702acacb3a0959ecd35
+    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202610121720-standard-bookworm@sha256:89f042ed22990eace6588206b068dac69b265a4234ed11e3371bd2769b128329

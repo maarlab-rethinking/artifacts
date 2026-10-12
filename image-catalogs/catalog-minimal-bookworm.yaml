@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: minimal
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261006'
+    images.cnpg.io/date: '20261012'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-minimal-bookworm@sha256:d624af0853a91337897f3b6d8a4b192b33aa9214e23790a07daddf38b43f8e80
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202610061037-minimal-bookworm@sha256:eac43d57ea00adcf468ed2e89f2d5f9366e208731fc30a32e1157dc96fd35d6a
+    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202610121720-minimal-bookworm@sha256:d78c8424cff5c7f96bde0dcd3a624a26c0d99c6cde46bcda9ced756c083e3ef9
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202610061037-minimal-bookworm@sha256:0a4544fd34f375da02833508b38d3d1095262d56bdd4347bb0e4b0a0ccd02e09
+    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202610121720-minimal-bookworm@sha256:e97962b7fe55a0f9b651400f8c32225ea965882820373bfadbe7d42b3eb80773
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202610061037-minimal-bookworm@sha256:03c861d3fff77728bd47a8914996767e9f4696a3ecd909ecaf13da8736353a8b
+    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202610121721-minimal-bookworm@sha256:6672993617d3137e5aa690ac6b2a11a3abb75b9ad33b0c685ecc1cd5e88c27c8
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202610061037-minimal-bookworm@sha256:188463ae4504e33fee895ec61568f2579ae196c6088afabaa7afc23ca35d0bf9
+    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202610121720-minimal-bookworm@sha256:9945a1e07afc4c8139a37f9800118b46df8a84269483b028953fbe007b46ab06
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202610061037-minimal-bookworm@sha256:f782748b798f7a0e78f235674a3695279538e3c20b663f5bf113517f101ce0c0
+    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202610121720-minimal-bookworm@sha256:a941d95515627d293602ea20efe3a702494630d42793387ee038903de40e1870

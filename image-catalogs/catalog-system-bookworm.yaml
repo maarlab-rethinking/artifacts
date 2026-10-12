@@ -6,19 +6,19 @@ metadata:
     images.cnpg.io/family: postgresql
     images.cnpg.io/type: system
     images.cnpg.io/os: bookworm
-    images.cnpg.io/date: '20261006'
+    images.cnpg.io/date: '20261012'
     images.cnpg.io/publisher: cnpg.io
 spec:
   images:
   - major: 13
     image: ghcr.io/maarlab-rethinking/postgresql:13.22-202511030826-system-bookworm@sha256:4dd3e6d6cc5a8ccb42df25c26aa58173e338eea165364a0230e26e315f6b50f4
   - major: 14
-    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202610061037-system-bookworm@sha256:b5c265394014478c01a4d45c20b11210f1c396d4db6199d451bc960e3e78a401
+    image: ghcr.io/maarlab-rethinking/postgresql:14.24-202610121720-system-bookworm@sha256:b5b7615de94ae6cf1f567fe72ec184bf381bfba0c48ac628c9be1792731f61a6
   - major: 15
-    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202610061037-system-bookworm@sha256:aa175451e7af00ee7184ceb883b6db809055917b171a74e76fb73fcfa13aae07
+    image: ghcr.io/maarlab-rethinking/postgresql:15.19-202610121720-system-bookworm@sha256:d3e6659facd126c4999780e07ec0a96bfa3882d8d2c8cdaaabf61240d2cf8645
   - major: 16
-    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202610061037-system-bookworm@sha256:87c6d4f75293dd8e1e32b7e78c2a876d295d8543a73a174a944efe620a53d478
+    image: ghcr.io/maarlab-rethinking/postgresql:16.15-202610121721-system-bookworm@sha256:c90cc465101132c301b0624695c8253daa757fcc5ef216ba13b88292587d2354
   - major: 17
-    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202610061037-system-bookworm@sha256:a1d9930c40939b02142b1142808521f3dcd3c50524ab9ba6afa67f21e4c8f56b
+    image: ghcr.io/maarlab-rethinking/postgresql:17.11-202610121720-system-bookworm@sha256:8eb9ac4c0166a441663043b015031d550c5c0be9ae67b6b82bb60c17c60ab401
   - major: 18
-    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202610061037-system-bookworm@sha256:53f001c85da5cdfa530bc4f30540acf364bbfa996b1e5890d1f5379fe5ce7063
+    image: ghcr.io/maarlab-rethinking/postgresql:18.6-202610121720-system-bookworm@sha256:3c408eaee226df5cbffc801b42b556dc14c7e2870858c3c244e2dfff2f574ce6
